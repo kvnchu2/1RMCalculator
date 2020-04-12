@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="calc.css">
+</head>
+<body>
+<div class="container">
+	<h1>1-RM Calculator!</h1>
+	<p>Plug in your weight and reps into the calculator and get your 1-RM!</p>
+	<div>
+		<b>Weight</b>
+	  	<input type="text" id="weight">
+	  	<b>Reps</b>
+	  	<input type="text" id="reps"><br><br>
+	  	<div class=buttons>
+			<button id="calculate" onclick="calculateMax()">Click Me</button>
+			<button id="reset" onclick="resetMax()">Reset</button>
+		</div>
+	</div>
+		<br><p>Your 1-RM is: <span id="demo"></span></p></br>
+</div>
+
+	<script src="calc.js"></script>
+</body>
+</html>
+
